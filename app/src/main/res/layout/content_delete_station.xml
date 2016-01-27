@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_delete_station"
+    tools:context="com.jonathonwmoore.jwm.cs496finalproject.DeleteStationActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/delete_screen_layout_id"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:id="@+id/delete_screen_instr"
+            android:textSize="@dimen/font_size"
+            android:text="@string/delete_screen_instr"
+            />
+        <LinearLayout
+            android:paddingTop="10px"
+            android:paddingBottom="10px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="10px"
+                android:paddingBottom="5px"
+                android:layout_height="5px"
+                android:layout_width="fill_parent"
+                android:background="@color/black"
+                android:src="@android:drawable/divider_horizontal_bright" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>

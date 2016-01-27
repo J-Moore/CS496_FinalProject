@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CS496 Final Project</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_intro_title">CS496 Final Project</string>
+    <string name="login_intro_title2">Find and Create Customizable Playlists</string>
+    <string name="login_instr">A Spotify Premium account is required to play music with this app</string>
+    <string name="login_submit">Log in with Spotify to Continue</string>
+    <string name="logout_submit">Log out</string>
+    <string name="title_activity_station">StationActivity</string>
+    <string name="create_station">Create Station</string>
+    <string name="search_station">Search nearby Stations</string>
+    <string name="select_station">Play a saved Station</string>
+    <string name="station_instr">Select an Existing Station, Create a new one, or Search for stations nearby!</string>
+    <string name="player_button_pause">Pause</string>
+    <string name="player_button_next">Next Song</string>
+    <string name="player_button_like">Like</string>
+    <string name="player_button_dislike">Dislike</string>
+    <string name="title_activity_create_playlist">CreatePlaylistActivity</string>
+
+    <string name="create_station_title">Create a Station</string>
+    <string name="create_station_instr">1. Name your Station</string>
+    <string name="create_station_instr2">2. Enter a Song or an Artist</string>
+    <string name="create_station_song_instr">enter a Song</string>
+    <string name="create_station_artist_instr">OR enter an Artist</string>
+    <string name="create_button_song">Create with Song</string>
+    <string name="create_button_artist">Create with Artist</string>
+    <string name="title_activity_saved_playlist">SavedPlaylistActivity</string>
+
+    <string name="select_screen_instr">Choose a saved or favorited station below</string>
+    <string name="title_activity_delete_station">DeleteStationActivity</string>
+
+    <string name="delete_screen_instr">Select a playlist to delete</string>
+    <string name="delete_station">Delete existing playlist</string>
+    <string name="title_activity_search_station">SearchStationActivity</string>
+
+    <string name="search_screen_instr">Please wait while we search for playlists in your area...</string>
+</resources>

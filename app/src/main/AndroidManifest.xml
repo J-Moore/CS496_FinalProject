@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jonathonwmoore.jwm.cs496finalproject" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.spotify.sdk.android.authentication.LoginActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".StationActivity"
+            android:label="@string/title_activity_station"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jonathonwmoore.jwm.cs496finalproject.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CreatePlaylistActivity"
+            android:label="@string/title_activity_create_playlist"
+            android:parentActivityName=".StationActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jonathonwmoore.jwm.cs496finalproject.StationActivity" />
+        </activity>
+        <activity
+            android:name=".SavedPlaylistActivity"
+            android:label="@string/title_activity_saved_playlist"
+            android:parentActivityName=".StationActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jonathonwmoore.jwm.cs496finalproject.StationActivity" />
+        </activity>
+        <activity
+            android:name=".DeleteStationActivity"
+            android:label="@string/title_activity_delete_station"
+            android:parentActivityName=".StationActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jonathonwmoore.jwm.cs496finalproject.StationActivity" />
+        </activity>
+        <activity
+            android:name=".SearchStationActivity"
+            android:label="@string/title_activity_search_station"
+            android:parentActivityName=".StationActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jonathonwmoore.jwm.cs496finalproject.StationActivity" />
+        </activity>
+    </application>
+
+</manifest>
